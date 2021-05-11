@@ -9,11 +9,13 @@ header {
   flex-direction: row;
   justify-content: space-between;
   font-size: 2em;
-  border: 2px dotted gray;
+  // border: 2px dotted gray;
+  box-shadow: 0 0 5rem rgba(0, 0, 0, 0.5);
   .logo {
     display: flex;
     h4 {
       padding: 10px;
+      letter-spacing: 0.1rem;
     }
     .svg-icon {
       height: 5rem;
@@ -29,6 +31,10 @@ header {
     padding: 10px;
     h4 {
       margin-right: 2em;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      margin-top: 0.6em;
     }
     .switch {
       position: relative;
@@ -107,4 +113,32 @@ header {
 .svg-icon circle {
   stroke: #4691f6;
   stroke-width: 1;
+}
+
+.main-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  opacity: 0;
+  background: white;
+  transition: opacity 300ms linear;
+}
+
+//================-
+// Footer
+//================
+.main-footer {
+  background: transparent;
+  position: absolute;
+  bottom: 1rem;
+  left: 1.5rem;
+  z-index: 100;
+}
+
+.copyright-text {
+  letter-spacing: 0.1rem;
+  color: white;
 }
