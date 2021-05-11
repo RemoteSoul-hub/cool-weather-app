@@ -4,6 +4,7 @@ $secondary-color: #be3dff;
 
 header {
   padding: 20px;
+  height: auto;
   background-color: $bg;
   display: flex;
   flex-direction: row;
@@ -114,18 +115,6 @@ header {
 .svg-icon circle {
   stroke: #4691f6;
   stroke-width: 1;
-}
-
-.main-container {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -2;
-  opacity: 0;
-  background: white;
-  transition: opacity 300ms linear;
 }
 
 //================-
