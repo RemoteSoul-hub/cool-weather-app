@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+<<<<<<< HEAD
 
 import { HomeComponent } from './components/home/home.component';
 import { CardsComponent } from './components/cards/cards.component';
@@ -19,6 +20,12 @@ import { DetailsComponent } from './components/details/details.component';
     HomeComponent,
     CardsComponent,
     DetailsComponent
+=======
+
+@NgModule({
+  declarations: [
+    AppComponent
+>>>>>>> parent of 9a5111e (home component and cards ui implemented + routing to home)
   ],
   imports: [
     BrowserModule,
