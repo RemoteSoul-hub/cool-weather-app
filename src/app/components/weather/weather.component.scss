@@ -10,10 +10,6 @@
     padding: 30px;
     box-shadow: 0 0 5rem rgba(0, 0, 0, 0.5);
     border-radius: 25px;
-    h3 {
-      color: #0c1066;
-      margin: 4rem 0 3rem 0;
-    }
   }
 }
 
@@ -66,4 +62,9 @@
 .search-icon {
   height: 50%;
   width: 50%;
+}
+
+h3 {
+  color: #0c1066;
+  margin: 4rem 0 3rem 0;
 }
