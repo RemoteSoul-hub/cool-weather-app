@@ -13,10 +13,13 @@
 </div>
 <div class="column1">
 <h3 class="text-center">Weather Details:</h3>
-<p class="text-center">{{this.weatherData?.location.localtime}}</p>
+<hr>
+<div class="result-container">
+<div class="time">Current Time:{{this.weatherData?.location.localtime}}</div>
 <p class="text-center"><img src="{{this.weatherData?.current.weather_icons}}" alt=""></p>
-<p class="text-center">{{this.weatherData?.current.temperature}}°</p>
-<p class="text-center">{{this.weatherData?.location.name}} In {{this.weatherData?.location.country}}</p>
-<p class="text-center">{{this.weatherData?.current.humidity}}</p>
+<p class="text-center">Temperature:{{this.weatherData?.current.temperature}}°</p>
+<p class="text-center">Location:{{this.weatherData?.location.name}} In {{this.weatherData?.location.country}}</p>
+<p class="text-center">Humidity:{{this.weatherData?.current.humidity}}</p>
+</div>
 </div>
 </div>
