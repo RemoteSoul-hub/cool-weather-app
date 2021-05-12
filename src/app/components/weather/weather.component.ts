@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { ApixuService } from "../../services/apixu.service";
-
 @Component({
   selector: 'app-weather',
   templateUrl: './weather.component.html',
@@ -17,6 +16,7 @@ export class WeatherComponent implements OnInit {
       location: ['']
     });
   }
+
   sendToAPIXU(formValues: any) {
     // console.log(formValues);
     this.apixuService
