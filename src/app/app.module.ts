@@ -7,6 +7,7 @@ import { ApixuService } from "./services/apixu.service";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WeatherComponent } from './components/weather/weather.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { WeatherComponent } from './components/weather/weather.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [ApixuService],
   bootstrap: [AppComponent]

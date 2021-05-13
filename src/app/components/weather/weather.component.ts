@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { ApixuService } from "../../services/apixu.service";
 @Component({
@@ -11,6 +11,8 @@ export class WeatherComponent implements OnInit {
   public weatherData: any;
   constructor(private FormBuilder: FormBuilder, private apixuService: ApixuService) { }
 
+
+  
   ngOnInit(): void {
     this.weatherSearchForm = this.FormBuilder.group({
       location: ['']
