@@ -23,10 +23,4 @@ export class AppComponent implements OnInit{
     });
 }
 
-modeToggleSwitch() {
- let darkActive: boolean = true;
- if (darkActive = true) {
-  console.log('dark mode on');
-}
-}
 }
